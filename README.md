@@ -21,36 +21,29 @@ This script takes 3D/4D images and de-stacks them into lower dimensional files. 
 2. Read the acknowledgements window and select "OK"
 
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Splash.png"  width="400" height="310">
-The acknowledgements splash screen for Directory_destacker.ijm
 
 
 3. Read the directory warning and take note of your file extension
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_DirectoryWarning.png"  width="300" height="120">
-The Directory warning window.
 
 
 4. Navigate to your input directory of choice that contains your image files. (note sometimes FJIJ cannot display files within a directory, but the macro will still run).
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_ExampleofInputDirectory.png"  width="300" height="110">
-Example input directory
 
 
 5. Next the paramaters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Preferences.png"  width="200" height="150">
-Parameters window.
 
 
 6. Next the macro will run through the images opening them one by one and splitting them out into the output directory. Upon completion the exit message will display.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/ExitMessage.png"  width="200" height="60">
-Exit message.
 
 
 7. Confirm outputs have saved within the output directory.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectory.png"  width="400" height="100">
 Example Directory showing output folders.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectoryContents.png"  width="400" height="100">
-Example output directory contents with individual files.
 
 
 8. Confirm any issues by checking the Log.txt file
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_LogWindow.png"  width="390" height="500">
-Example Log file
