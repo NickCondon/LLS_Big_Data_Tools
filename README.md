@@ -3,7 +3,7 @@ Tools for big data processing of microscopy files.
 
 Created by Dr Nicholas Condon from The Institute for Molecular Biosciences, The University of Queensland, Australia. (contact: n.condon@uq.edu.au)
 
-The following tools are provided to help process large data-set images into either smaller single files for parrellelised processing, as well as to batch maximum Z-project and conbined into a single 2D .avi file for data surveying.
+The following tools are provided to help process large data-set images into either smaller single files for parrellelised processing, as well as to batch maximum Z-project and combined into a single 2D .avi file for data surveying.
 
 The macro files are:
 * Directory_destacker.ijm
@@ -30,7 +30,7 @@ The following sections contain instructions and example screenshots of the the s
 This script takes 3D/4D images and de-stacks them into lower dimensional files. Files are filtered by their extension (.czi, .lsm etc) and are opened via Bioformats importer. Files to be processed should be within their own directory. Processed images/movies can be placed into a subdirectory called Filename_Extracted, or within the main working directory. A log file (Log_ImageDe-stacker.txt) will be saved within this directory for recording the processing steps chosen.
 <br><br>
 #### Running the script
-1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed nagivate to the Pluggins menu.
+1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
 2. Read the acknowledgements window and select "OK"
 
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Splash.png"  width="400" height="310">
@@ -44,7 +44,7 @@ This script takes 3D/4D images and de-stacks them into lower dimensional files. 
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_ExampleofInputDirectory.png"  width="300" height="110">
 
 
-5. Next the paramaters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
+5. Next the parameters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Preferences.png"  width="200" height="150">
 
 
