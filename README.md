@@ -23,7 +23,9 @@ The Bio-Formats opener window will pop-up for each image file unless you change 
 
 Now the importer window won’t open for this file-type. To restore this, simply untick ‘Windowless”
 
-## Guides to running the scripts
+## Installing and Running the scripts
+The easiest way to install these scripts is to download this entire Git and place it within the Plugins folder of FIJI. After a re-start you should see a new Plugins Menu called "LLS Big Data Tools" which will contain the 3 main macros. Alternatively you can download the Git and drag & drop the .ijm files onto the main FIJI window and select Run.
+
 The following sections contain instructions and example screenshots of the the scripts being run.
 
 ### Directory_destacker.ijm 
@@ -60,3 +62,39 @@ Example Directory showing output folders.
 
 8. Confirm any issues by checking the Log.txt file
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_LogWindow.png"  width="390" height="500">
+
+
+### Live_destacker.ijm 
+This script takes already open 3D/4D images and de-stacks them into lower dimensional files. Image file should already be open and selected within the FIJI environment. Processed images will be placed into a subdirectory called filename+'_extracted'. The log window display the current frame position and/or completion time.
+
+#### Running the script
+1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
+2. Read the acknowledgements window and select "OK"
+
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_Splash.png"  width="400" height="310">
+
+
+3. Read the directory warning and take note of your file extension
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_DirectoryWarning.png"  width="300" height="80">
+
+
+4. Navigate to your input directory of choice that contains your image files. (note sometimes FIJI cannot display files within a directory, but the macro will still run).
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_OutputDirectoryPrompt.png"  width="300" height="210">
+
+
+5. Next the parameters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_Paramaters.png"  width="200" height="150">
+
+
+6. Next the macro will run through the images opening them one by one and splitting them out into the output directory. Upon completion the exit message will display.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/ExitMessage.png"  width="200" height="60">
+
+
+7. Confirm outputs have saved within the output directory.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_OutputDirectory.png"  width="400" height="100">
+Example Directory showing output folders.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_OutputDirectoryContents.png"  width="400" height="100">
+
+
+8. Confirm any issues by checking the Log.txt file
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_LogWindow.png"  width="390" height="500">
