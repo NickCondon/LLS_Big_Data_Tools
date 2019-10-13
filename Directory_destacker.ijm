@@ -1,5 +1,5 @@
 print("\\Clear")
- 
+
 //	MIT License
 
 //	Copyright (c) 2019 Nicholas Condon n.condon@uq.edu.au
@@ -71,9 +71,6 @@ Dialog.create("Choosing your image location");
 //Directory location selector
 path = getDirectory("Choose Source Directory ");
 list = getFileList(path);
-
-
-setBatchMode(true);
 
 
 //Parameter selection box
