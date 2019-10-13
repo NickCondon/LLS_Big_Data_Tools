@@ -12,11 +12,24 @@ The macro files are:
 
 These macros are written in the Image J macro language.
 
+## Preventing the Bio-formats Importer window from displaying.
+The Bio-Formats opener window will pop-up for each image file unless you change the following within the Bio-Formats configuration panel.
 
-## Directory_destacker.ijm 
+1. Open FIJI
+2. Navigate to Plugins > Bio-Formats > Bio-Formats Plugins Configuration
+3. Select Formats
+4. Select your desired file format (e.g. “Zeiss CZI”) and select “Windowless”
+5. Close the Bio-Formats Plugins Configuration window
+
+Now the importer window won’t open for this file-type. To restore this, simply untick ‘Windowless”
+
+## Guides to running the scripts
+The following sections contain instructions and example screenshots of the the scripts being run.
+
+### Directory_destacker.ijm 
 This script takes 3D/4D images and de-stacks them into lower dimensional files. Files are filtered by their extension (.czi, .lsm etc) and are opened via Bioformats importer. Files to be processed should be within their own directory. Processed images/movies can be placed into a subdirectory called Filename_Extracted, or within the main working directory. A log file (Log_ImageDe-stacker.txt) will be saved within this directory for recording the processing steps chosen.
 <br><br>
-### Running the script
+#### Running the script
 1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed nagivate to the Pluggins menu.
 2. Read the acknowledgements window and select "OK"
 
