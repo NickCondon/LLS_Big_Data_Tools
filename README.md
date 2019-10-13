@@ -10,7 +10,7 @@ The macro files are:
 * Live_destacker.ijm
 * Directory_Z-Projection.ijm
 
-These macros are written in the Image J macro language.
+These macros are written in the Image J macro language and can be run in [FIJI](http://fiji.sc).
 
 ## Preventing the Bio-formats Importer window from displaying
 The Bio-Formats opener window will pop-up for each image file unless you change the following within the Bio-Formats configuration panel.
