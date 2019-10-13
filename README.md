@@ -12,7 +12,7 @@ The macro files are:
 
 These macros are written in the Image J macro language.
 
-## Preventing the Bio-formats Importer window from displaying.
+## Preventing the Bio-formats Importer window from displaying
 The Bio-Formats opener window will pop-up for each image file unless you change the following within the Bio-Formats configuration panel.
 
 1. Open FIJI
