@@ -98,3 +98,41 @@ Example Directory showing output folders.
 
 8. Confirm any issues by checking the Log.txt file
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_LogWindow.png"  width="390" height="500">
+
+
+### Directory_Z-Projection.ijm
+This script takes 3D/4D images and Z-projects (Maximum, Minimum, Average, Sum Slices) them as well as outputting .tif and/or .avi. Files are filtered by their extension (.czi, .lsm etc) and are opened via Bioformats importer. Files to be processed should be within their own directory. Processed images/movies will be placed into a subdirectory called (projectiontype)_Results_(Date&time). 
+
+This script can be used to convert files to .tif by selecting 'No Projection' and 'Save .tif output'.  The checkbox for concatonation will combine all output files into a single .avi file, suitable for Lattice Light-sheet data-sets. A log file (.txt) will be saved within this directory for recording the processing steps chosen.
+ 
+#### Running the script
+1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
+2. Read the acknowledgements window and select "OK"
+
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_Splash.png"  width="400" height="310">
+
+
+3. Read the directory warning and take note of your file extension
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_DirectoryWarning.png"  width="300" height="120">
+
+
+4. Navigate to your input directory of choice that contains your image files. (note sometimes FJIJ cannot display files within a directory, but the macro will still run).
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_ExampleofInputDirectory.png"  width="300" height="110">
+
+
+5. Next the parameters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Preferences.png"  width="200" height="150">
+
+
+6. Next the macro will run through the images opening them one by one and splitting them out into the output directory. Upon completion the exit message will display.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/ExitMessage.png"  width="200" height="60">
+
+
+7. Confirm outputs have saved within the output directory.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectory.png"  width="400" height="100">
+Example Directory showing output folders.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectoryContents.png"  width="400" height="100">
+
+
+8. Confirm any issues by checking the Log.txt file
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_LogWindow.png"  width="390" height="500">
