@@ -56,7 +56,6 @@ This script takes 3D/4D images and de-stacks them into lower dimensional files. 
 
 7. Confirm outputs have saved within the output directory.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectory.png"  width="400" height="100">
-Example Directory showing output folders.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectoryContents.png"  width="400" height="100">
 
 
@@ -68,7 +67,7 @@ Example Directory showing output folders.
 This script takes already open 3D/4D images and de-stacks them into lower dimensional files. Image file should already be open and selected within the FIJI environment. Processed images will be placed into a subdirectory called filename+'_extracted'. The log window display the current frame position and/or completion time.
 
 #### Running the script
-1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
+1. Drag the Live_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
 2. Read the acknowledgements window and select "OK"
 
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_Splash.png"  width="400" height="310">
@@ -92,7 +91,6 @@ This script takes already open 3D/4D images and de-stacks them into lower dimens
 
 7. Confirm outputs have saved within the output directory.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_OutputDirectory.png"  width="400" height="100">
-Example Directory showing output folders.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/LDS_OutputDirectoryContents.png"  width="400" height="100">
 
 
@@ -106,9 +104,9 @@ This script takes 3D/4D images and Z-projects (Maximum, Minimum, Average, Sum Sl
 This script can be used to convert files to .tif by selecting 'No Projection' and 'Save .tif output'.  The checkbox for concatonation will combine all output files into a single .avi file, suitable for Lattice Light-sheet data-sets. A log file (.txt) will be saved within this directory for recording the processing steps chosen.
  
 #### Running the script
-1. Drag the Directory_destacker.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
-2. Read the acknowledgements window and select "OK"
+1. Drag the Directory_Z-Projection.ijm file onto an open session of FIJI and select "Run" **or** if already installed navigate to the Plugins menu.
 
+2. Read the acknowledgements window and select "OK"
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_Splash.png"  width="400" height="310">
 
 
@@ -123,6 +121,7 @@ This script can be used to convert files to .tif by selecting 'No Projection' an
 5. Next the parameters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_Parameters.png"  width="200" height="150">
 
+
 5a. Next if the AVI output file has been selected, the following window will display. Choose the relevent compresison settings and frame rate.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_AVIParamaters.png"  width="200" height="150">
 
@@ -133,7 +132,6 @@ This script can be used to convert files to .tif by selecting 'No Projection' an
 
 7. Confirm outputs have saved within the output directory.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_OutputDirectory.png"  width="400" height="120">
-Example Directory showing output folders.
 <img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_OutputDirectoryContents.png"  width="400" height="120">
 
 
