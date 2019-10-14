@@ -6,9 +6,9 @@ Created by Dr Nicholas Condon from The Institute for Molecular Biosciences, The 
 The following tools are provided to help process large data-set images into either smaller single files for parrellelised processing, as well as to batch maximum Z-project and combined into a single 2D .avi file for data surveying.
 
 The macro files are:
-* Directory_destacker.ijm
-* Live_destacker.ijm
-* Directory_Z-Projection.ijm
+* [Directory_destacker.ijm](https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/README.md###-Directory_destacker.ijm) 
+* [Live_destacker.ijm]
+* [Directory_Z-Projection.ijm]
 
 These macros are written in the Image J macro language and can be run in [FIJI](http://fiji.sc). The Reduce Dimensionality tool within FIJI is based off the original macro by Jérôme Mutterer and is used here in the Live_destacker.ijm and Directory_destacker.ijm macros.
 
