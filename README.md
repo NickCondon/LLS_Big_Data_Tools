@@ -117,11 +117,14 @@ This script can be used to convert files to .tif by selecting 'No Projection' an
 
 
 4. Navigate to your input directory of choice that contains your image files. (note sometimes FJIJ cannot display files within a directory, but the macro will still run).
-<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_ExampleofInputDirectory.png"  width="300" height="110">
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_ExampleofInputDirectory.png"  width="300" height="110">
 
 
 5. Next the parameters dialog will open. Confirm your file extension type in the text field. Select the dimensions you with to reduce your images by. Note: Ensuring the sub-directory tick box is selected will create a directory with the image name for output files to be put into.
-<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_Preferences.png"  width="200" height="150">
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_Parameters.png"  width="200" height="150">
+
+5a. Next if the AVI output file has been selected, the following window will display. Choose the relevent compresison settings and frame rate.
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_AVIParamaters.png"  width="200" height="150">
 
 
 6. Next the macro will run through the images opening them one by one and splitting them out into the output directory. Upon completion the exit message will display.
@@ -129,10 +132,10 @@ This script can be used to convert files to .tif by selecting 'No Projection' an
 
 
 7. Confirm outputs have saved within the output directory.
-<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectory.png"  width="400" height="100">
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_OutputDirectory.png"  width="400" height="120">
 Example Directory showing output folders.
-<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_OutputDirectoryContents.png"  width="400" height="100">
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_OutputDirectoryContents.png"  width="400" height="120">
 
 
 8. Confirm any issues by checking the Log.txt file
-<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DDS_LogWindow.png"  width="390" height="500">
+<img src="https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/Screenshots/DZP_LogWindow.png"  width="390" height="480">
