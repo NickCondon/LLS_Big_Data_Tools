@@ -24,7 +24,7 @@ print("\\Clear")
 
 
 //IMB Macro Splash screen (Do not remove this acknowledgement)
-scripttitle="Z Projection and AVI output";
+scripttitle="Directory_Z-Projection";
 version="1.3";
 versiondate="13/10/2019";
 description="Details: <br>This script takes 3D/4D images and Z-projects (Maximum, Minimum, Average, Sum Slices) them as well as outputting .tif and/or .avi. <br><br>"
