@@ -6,7 +6,7 @@ Created by Dr Nicholas Condon from The Institute for Molecular Biosciences, The 
 The following tools are provided to help process large data-set images into either smaller single files for parrellelised processing, as well as to batch maximum Z-project and combined into a single 2D .avi file for data surveying.
 
 The macro files are:
-* [Directory_destacker.ijm](https://github.com/NickCondon/LLS_Big_Data_Tools/blob/master/README.md###-Directory_destacker.ijm) 
+* [Directory_destacker.ijm]
 * [Live_destacker.ijm]
 * [Directory_Z-Projection.ijm]
 
