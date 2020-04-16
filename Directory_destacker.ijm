@@ -116,7 +116,7 @@ start = getTime();
 for (z=0; z<list.length; z++) {
 //confirms only files being opened contain the filetype as defined by ext
 	if (endsWith(list[z],ext)){
-	run("Bio-Formats Importer", "open="+path+list[z]+" autoscale color_mode=Default rois_import=[ROI manager] view=Hyperstack stack_order=XYCZT");
+	run("Bio-Formats Importer", "open=["+path+list[z]+"] autoscale color_mode=Default rois_import=[ROI manager] view=Hyperstack stack_order=XYCZT");
 	
  	windowtitle = getTitle();
 	windowtitlenoext = replace(windowtitle, ext, "");
