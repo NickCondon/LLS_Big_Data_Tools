@@ -12,6 +12,9 @@ The macro files are:
 
 These macros are written in the Image J macro language and can be run in [FIJI](http://fiji.sc). The Reduce Dimensionality tool within FIJI is based off the original macro by Jérôme Mutterer and is used here in the Live_destacker.ijm and Directory_destacker.ijm macros.
 
+This Repository is featured in 03/2020 Edition of Imaging & Microscopy. See [here](https://analyticalscience.wiley.com/do/10.1002/was.000005) for the link.
+
+
 ## Preventing the Bio-formats Importer window from displaying
 The Bio-Formats opener window will pop-up for each image file unless you change the following within the Bio-Formats configuration panel.
 
