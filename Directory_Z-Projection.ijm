@@ -195,8 +195,8 @@ for (z=0; z<list.length; z++) {
 		}
     
     
-    close();
-    print(" ");
+while(nImages>0){close();}
+print(" ");
     }
   }
 }
